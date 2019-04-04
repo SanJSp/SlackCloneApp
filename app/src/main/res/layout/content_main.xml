@@ -17,7 +17,8 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="8dp" android:textAlignment="center" app:layout_constraintHorizontal_bias="0.0"
-            android:id="@+id/mainChannelName"/>
+            android:id="@+id/mainChannelName" android:textSize="18sp" android:textStyle="bold"
+            android:textColor="@android:color/darker_gray"/>
     <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
